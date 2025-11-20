@@ -3,14 +3,14 @@
  "category": "decisionTable",
  "data": {
   "createdAt": "2025-11-20T11:37:19.638Z",
-  "updatedAt": "2025-11-20T11:37:54.344927Z",
+  "updatedAt": "2025-11-20T11:43:37.064136Z",
   "isDeleted": false,
-  "testedAt": "2025-11-20T11:37:54.344Z",
+  "testedAt": "2025-11-20T11:43:05.771Z",
   "publishedAt": "0001-01-01T00:00:00Z",
   "entityId": "aec322d9-297d-4984-9caa-e61a4042ec4d",
   "name": "Rule1",
   "commitId": "commit-088463a2-1599-4e06-9c81-89174172b019",
-  "status": "tested",
+  "status": "draft",
   "lastVersion": "",
   "isLive": false,
   "commitInfo": {
@@ -42,7 +42,18 @@
   },
   "action": {
    "then": {
-    
+    "actionNode": {
+     "actionData_action_1": {
+      "name": "action_1",
+      "connectorId": "3910e471-ceae-46d0-84c4-fbd5dec34cc8",
+      "entity": "",
+      "entityId": "",
+      "config": {
+       "query": ""
+      }
+     }
+    },
+    "firstActionNode": "actionData_action_1"
    },
    "else": {
     
@@ -50,21 +61,6 @@
   },
   "conditions": {
    "nodes": {
-    "rule_03": {
-     "sourceType": "customInput",
-     "dataType": "string",
-     "nodeType": "params",
-     "attribute": "name",
-     "siblingIndex": 1
-    },
-    "rhs_NnVA1P": {
-     "sourceType": "globalVar",
-     "dataType": "string",
-     "nodeType": "params",
-     "attribute": "nm",
-     "parent": "rule_02",
-     "siblingIndex": 1
-    },
     "rule_01": {
      "operator": "and",
      "nodeType": "group",
@@ -85,6 +81,21 @@
      "rightNode": [
       "rhs_NnVA1P"
      ],
+     "siblingIndex": 1
+    },
+    "rule_03": {
+     "sourceType": "customInput",
+     "dataType": "string",
+     "nodeType": "params",
+     "attribute": "name",
+     "siblingIndex": 1
+    },
+    "rhs_NnVA1P": {
+     "sourceType": "globalVar",
+     "dataType": "string",
+     "nodeType": "params",
+     "attribute": "nm",
+     "parent": "rule_02",
      "siblingIndex": 1
     }
    }
@@ -126,13 +137,13 @@
    "entityType": "rule",
    "entityId": "aec322d9-297d-4984-9caa-e61a4042ec4d",
    "entityVersion": "draft",
-   "entityNodeId": "dataSet",
-   "dependencyType": "dataSet",
-   "dependencyId": "27d1d81c-76c5-4dd4-bede-aa9666782aaf",
-   "dependencyVersion": "draft",
+   "entityNodeId": "then-actionData_action_1",
+   "dependencyType": "connector",
+   "dependencyId": "3910e471-ceae-46d0-84c4-fbd5dec34cc8",
+   "dependencyVersion": "live",
    "isDeleted": false,
-   "createdAt": "2025-11-20T11:37:51.489572Z",
-   "updatedAt": "2025-11-20T11:37:51.489572Z"
+   "createdAt": "2025-11-20T11:43:37.078218Z",
+   "updatedAt": "2025-11-20T11:43:37.078218Z"
   },
   {
    "entityCommitId": "commit-088463a2-1599-4e06-9c81-89174172b019",
@@ -145,7 +156,20 @@
    "dependencyVersion": "live",
    "isDeleted": false,
    "createdAt": "2025-11-20T11:37:51.488224Z",
-   "updatedAt": "2025-11-20T11:37:51.488224Z"
+   "updatedAt": "2025-11-20T11:43:37.079603Z"
+  },
+  {
+   "entityCommitId": "commit-088463a2-1599-4e06-9c81-89174172b019",
+   "entityType": "rule",
+   "entityId": "aec322d9-297d-4984-9caa-e61a4042ec4d",
+   "entityVersion": "draft",
+   "entityNodeId": "dataSet",
+   "dependencyType": "dataSet",
+   "dependencyId": "27d1d81c-76c5-4dd4-bede-aa9666782aaf",
+   "dependencyVersion": "draft",
+   "isDeleted": false,
+   "createdAt": "2025-11-20T11:37:51.489572Z",
+   "updatedAt": "2025-11-20T11:43:37.076284Z"
   }
  ]
 }
