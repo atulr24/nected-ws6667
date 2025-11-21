@@ -3,9 +3,9 @@
  "category": "decisionTable",
  "data": {
   "createdAt": "2025-11-20T11:37:19.638Z",
-  "updatedAt": "2025-11-20T11:43:37.064136Z",
+  "updatedAt": "2025-11-21T05:48:30.582443Z",
   "isDeleted": false,
-  "testedAt": "2025-11-20T11:43:05.771Z",
+  "testedAt": "2025-11-21T05:48:22.258Z",
   "publishedAt": "0001-01-01T00:00:00Z",
   "entityId": "aec322d9-297d-4984-9caa-e61a4042ec4d",
   "name": "Rule1",
@@ -143,7 +143,7 @@
    "dependencyVersion": "live",
    "isDeleted": false,
    "createdAt": "2025-11-20T11:43:37.078218Z",
-   "updatedAt": "2025-11-20T11:43:37.078218Z"
+   "updatedAt": "2025-11-21T05:48:30.594308Z"
   },
   {
    "entityCommitId": "commit-088463a2-1599-4e06-9c81-89174172b019",
@@ -156,7 +156,7 @@
    "dependencyVersion": "live",
    "isDeleted": false,
    "createdAt": "2025-11-20T11:37:51.488224Z",
-   "updatedAt": "2025-11-20T11:43:37.079603Z"
+   "updatedAt": "2025-11-21T05:48:30.595338Z"
   },
   {
    "entityCommitId": "commit-088463a2-1599-4e06-9c81-89174172b019",
@@ -169,7 +169,7 @@
    "dependencyVersion": "draft",
    "isDeleted": false,
    "createdAt": "2025-11-20T11:37:51.489572Z",
-   "updatedAt": "2025-11-20T11:43:37.076284Z"
+   "updatedAt": "2025-11-21T05:48:30.592452Z"
   }
  ]
 }
